@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: red;
+}
+
+.view-toggle {
+  margin: 20px 20px 10px;
+}
+
+.view-toggle button {
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 18px;
+  appearance: none;
+  border: 0;
+  background: white;
+  margin-right: 10px;
+}

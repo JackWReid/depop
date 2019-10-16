@@ -1,0 +1,74 @@
+.explore-grid {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.explore-item {
+  position: relative;
+  float: left;
+  width: 20vw;
+  height: 33.333vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: ease-in .1s transform;
+  z-index: 5;
+
+  @media screen and (max-width: 800px) {
+    width: 50vw;
+    height: 10vh;
+  }
+}
+
+.explore-item-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.explore-item-info {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.explore-item-info p {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  color: #d81f2a;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  background-color: white;
+  color: #d81f2a;
+}
+
+.explore-item-info p:first-child {
+  margin-top: 10px;
+}
+
+.explore-item-info a {
+
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

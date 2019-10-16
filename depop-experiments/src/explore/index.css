@@ -1,0 +1,40 @@
+.explore-wrapper {
+  flex-grow: 1;
+  align-items: stretch;
+  width: 100%;
+}
+
+.grid-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  background: #eee;
+}
+
+.intro {
+  padding: 20px;
+  display: flex;
+}
+
+.explanation {
+  margin: 0 20px 0 0;
+  max-width: 30em;
+  line-height: 1.4;
+}
+
+.intro input[type="submit"], .intro input[type="text"] {
+  font-size: 16px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.intro input[type="text"] {
+  margin-right: 10px;
+}
+
+.intro input[type="submit"] {
+  appearance: none;
+  border: none;
+  background: #eee;
+}

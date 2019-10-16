@@ -1,0 +1,30 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color: darkred;
+}
+
+.app-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container {
+  flex-grow: 1;
+  display: flex;
+}
